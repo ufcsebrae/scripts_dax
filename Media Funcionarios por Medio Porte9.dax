@@ -1,0 +1,9 @@
+MediaFuncionario/PorteMedio9 = 
+VAR NUMEROFUNCIONARIO = 
+CALCULATE(
+  [SomaFuncionario], FILTER(dimLocal, dimLocal[PorteER] = "MÉDIO PORTE"
+))
+
+VAR CONTAGEMESCRITORIOS = CALCULATE(COUNT(dimLocal[Local]), FILTER(dimLocal, dimLocal[PorteER] = "MÉDIO PORTE"))
+
+RETURN DIVIDE(NUMEROFUNCIONARIO, CONTAGEMESCRITORIOS)

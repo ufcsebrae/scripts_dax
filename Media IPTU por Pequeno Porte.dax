@@ -1,0 +1,3 @@
+MediaIPTU/PortePequeno = CALCULATE(
+  [MediaIPTU], FILTER(fER, fER[Porte ERs] = "ER DE PEQUENO PORTE"
+))

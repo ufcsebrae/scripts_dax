@@ -1,0 +1,1 @@
+MediaFolha = DIVIDE([SomaFolha], [MesMaximo])

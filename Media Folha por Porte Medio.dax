@@ -1,0 +1,3 @@
+MediaFolha/PorteMédio = CALCULATE(
+  [MediaFolha], FILTER(fER, fER[Porte ERs] = "ER DE MÉDIO PORTE"
+))

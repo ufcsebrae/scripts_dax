@@ -1,0 +1,3 @@
+MediaEstagTerceiros/PortePequeno = CALCULATE(
+  [MediaEstagTerceiros], FILTER(fER, fER[Porte ERs] = "ER DE PEQUENO PORTE"
+))
