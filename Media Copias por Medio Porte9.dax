@@ -1,0 +1,6 @@
+MediaCopias/PorteMedio9 = 
+VAR MEDIDA = [MediaCopias/PorteMedio]
+
+VAR CONTAGEMESCRITORIOS = CALCULATE(COUNT(dimLocal[Local]), FILTER(dimLocal, dimLocal[PorteER] = "MÉDIO PORTE"))
+
+RETURN DIVIDE(MEDIDA, CONTAGEMESCRITORIOS)

@@ -1,0 +1,10 @@
+%Total = VAR Total =
+[TotalGeral]
+
+var calcula = CALCULATE([TotalGeral],all(dimLocal[Local]),all(dimLocal[PorteER]))
+
+VAR Dividir =
+DIVIDE(Total, calcula)
+
+RETURN
+Dividir 

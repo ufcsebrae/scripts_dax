@@ -1,0 +1,3 @@
+MediaAluguel/PortePequeno = CALCULATE(
+  [MediaAluguel], FILTER(fER, fER[Porte ERs] = "ER DE PEQUENO PORTE"
+))

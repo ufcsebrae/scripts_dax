@@ -1,0 +1,1 @@
+MediaCopias = DIVIDE([SomaCopias], [MesMaximo])

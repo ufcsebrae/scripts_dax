@@ -1,0 +1,1 @@
+MediaDespVeiculos = DIVIDE([SomaDespVeiculos], [MesMaximo])

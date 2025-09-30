@@ -1,0 +1,3 @@
+MediaAgua/PorteGrande = CALCULATE(
+  [MediaAgua], FILTER(fER, fER[Porte ERs] = "ER DE GRANDE PORTE"
+))

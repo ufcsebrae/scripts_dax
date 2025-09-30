@@ -1,0 +1,6 @@
+MediaAgua/PorteMedio9 = 
+VAR MEDIDA = [MediaAgua/PorteMedio]
+
+VAR CONTAGEMESCRITORIOS = CALCULATE(COUNT(dimLocal[Local]), FILTER(dimLocal, dimLocal[PorteER] = "MÉDIO PORTE"))
+
+RETURN DIVIDE(MEDIDA, CONTAGEMESCRITORIOS)

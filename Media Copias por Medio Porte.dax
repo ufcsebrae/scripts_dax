@@ -1,0 +1,3 @@
+MediaCopias/PorteMedio = CALCULATE(
+  [MediaCopias], FILTER(fER, fER[Porte ERs] = "ER DE MÉDIO PORTE"
+))

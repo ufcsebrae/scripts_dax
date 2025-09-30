@@ -1,0 +1,6 @@
+MediaAluguel/PorteGrande16 = 
+VAR MEDIDA = [MediaAluguel/PorteGrande]
+
+VAR CONTAGEMESCRITORIOS = CALCULATE(COUNT(dimLocal[Local]), FILTER(dimLocal, dimLocal[PorteER] = "GRANDE PORTE"))
+
+RETURN DIVIDE(MEDIDA, CONTAGEMESCRITORIOS)

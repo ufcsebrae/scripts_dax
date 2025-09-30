@@ -1,0 +1,21 @@
+KPIs = 
+VAR KPIs =
+SELECTEDVALUE(Performance[Medida])
+
+RETURN
+SWITCH(TRUE(), 
+ KPIs = "Água e Luz", [SomaAgua]
+, KPIs = "Aluguel Imovel", [SomaAluguel]
+, KPIs = "Man. Obras e Reforma", [SomaManutencao]
+, KPIs = "Tele Comunicacao", [SomaTeleComunicacao]
+, KPIs = "Desp. Veic. E Transp.", [SomaDespVeiculos]
+, KPIs = "Cópias e Impressões", [SomaCopias]
+, KPIs = "Limpeza e Conservação", [SomaLimpeza]
+, KPIs = "Vigilância", [SomaVigilancia]
+, KPIs = "Outros", [SomaOutros]
+, KPIs = "Estag. Terceiros", [SomaEstagTerceiros]
+, KPIs = "Folha", [SomaFolha]
+, KPIs = "IPTU", [SomaIPTU]
+, KPIs = "Total", [SomaAgua] + [SomaAluguel] + [SomaManutencao] + [SomaTeleComunicacao] + [SomaDespVeiculos] + [SomaCopias] + [SomaLimpeza] + [SomaVigilancia] + [SomaOutros] + [SomaEstagTerceiros] + [SomaFolha] + [SomaIPTU]
+, BLANK()
+)
