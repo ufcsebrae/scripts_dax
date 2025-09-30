@@ -1,0 +1,4 @@
+MediaTotal = AVERAGEX (
+    _Medidas,
+    _Medidas[SomaMediaTotal]
+)

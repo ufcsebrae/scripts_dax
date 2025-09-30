@@ -1,0 +1,3 @@
+MediaOutros/PorteGrande = CALCULATE(
+  [MediaOutros], FILTER(fER, fER[Porte ERs] = "ER DE GRANDE PORTE"
+))

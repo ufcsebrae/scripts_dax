@@ -1,0 +1,3 @@
+MediaManutecacao/PortePequeno = CALCULATE(
+  [MediaManutencao], FILTER(fER, fER[Porte ERs] = "ER DE PEQUENO PORTE"
+))

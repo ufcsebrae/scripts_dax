@@ -1,0 +1,6 @@
+MediaLimpeza/PortePequeno8 = 
+VAR MEDIDA = [MediaLimpeza/PortePequeno]
+
+VAR CONTAGEMESCRITORIOS = CALCULATE(COUNT(dimLocal[Local]), FILTER(dimLocal, dimLocal[PorteER] = "PEQUENO PORTE"))
+
+RETURN DIVIDE(MEDIDA, CONTAGEMESCRITORIOS)

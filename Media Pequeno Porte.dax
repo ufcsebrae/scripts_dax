@@ -1,0 +1,5 @@
+MediaPequenoPorte = 
+CALCULATE(
+    DISTINCTCOUNT(fER[CLASSIFICA]),
+    fER[Porte ERs] = "ER DE PEQUENO PORTE"
+)

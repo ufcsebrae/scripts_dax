@@ -1,0 +1,3 @@
+MediaVigilancia/PorteMedio = CALCULATE(
+  [MediaVigilancia], FILTER(fER, fER[Porte ERs] = "ER DE MÉDIO PORTE"
+))

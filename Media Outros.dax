@@ -1,0 +1,1 @@
+MediaOutros = DIVIDE([SomaOutros], [MesMaximo])
