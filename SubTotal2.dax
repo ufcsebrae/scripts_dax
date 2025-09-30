@@ -1,0 +1,1 @@
+SubTotal2 = [MediaAgua] + [MediaAluguel] + [MediaManutencao] + [MediaTeleComunicacao] + [MediaDespVeiculos] + [MediaCopias] + [MediaLimpeza] + [MediaVigilancia] + [MediaOutros]

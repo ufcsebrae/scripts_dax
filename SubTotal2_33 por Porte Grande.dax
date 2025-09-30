@@ -1,0 +1,1 @@
+SubTotal2_33/PorteGrande = [MediaAgua/PorteGrande16] + [MediaAluguel/PorteGrande16] + [MediaManutencao/PorteGrande16] + [MediaTeleComunicacao/PorteGrande16] + [MediaDespVeiculos/PorteGrande16] + [MediaCopias/PorteGrande16] + [MediaLimpeza/PorteGrande16] + [MediaVigilancia/PorteGrande16]

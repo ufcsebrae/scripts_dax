@@ -1,0 +1,17 @@
+SomaMediaTotal = 
+
+    
+        [MediaAgua] +
+        [MediaAluguel] +
+        [MediaCopias] +
+        [MediaDespVeiculos] +
+        [MediaEstagTerceiros] +
+        [MediaFolha] +
+        [MediaIPTU] +
+        [MediaLimpeza] +
+        [MediaManutencao] +
+        [MediaOutros] +
+        [MediaTeleComunicacao] +
+        [MediaVigilancia]
+    
+    

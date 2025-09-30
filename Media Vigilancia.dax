@@ -1,0 +1,1 @@
+MediaVigilancia = DIVIDE([SomaVigilancia], [MesMaximo])

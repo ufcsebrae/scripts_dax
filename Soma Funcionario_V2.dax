@@ -1,0 +1,4 @@
+SOMAFUNCIONARIO_v2 = 
+var funcionarios = [SomaFuncionario]
+RETURN
+IF(HASONEVALUE(fER[Porte ERs]),funcionarios,BLANK())
