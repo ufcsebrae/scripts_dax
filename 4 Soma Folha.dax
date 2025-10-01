@@ -1,0 +1,1 @@
+_4SomaFolha = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "FOLHA",MONTH(_Calendario[Date])=4)

@@ -1,0 +1,1 @@
+_3SomaManutencao = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "MANUTENCAO",MONTH(_Calendario[Date])=3)

@@ -1,0 +1,1 @@
+_1SomaAluguel = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "ALUGUEL",MONTH(_Calendario[Date])=1)

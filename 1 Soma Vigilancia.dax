@@ -1,0 +1,1 @@
+_1SomaVigilancia = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "VIGILANCIA",MONTH(_Calendario[Date])=1)

@@ -1,0 +1,1 @@
+_4SubTotal = [_4SomaAgua] + [_4SomaAluguel] + [_4SomaManutencao] + [_4SomaTeleComunicacao] + [_4SomaDespVeiculos] + [_4SomaCopias] + [_4SomaLimpeza] + [_4SomaVigilancia] + [_4SomaOutros]

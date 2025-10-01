@@ -1,0 +1,1 @@
+_2SomaCopias = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "COPIAS", MONTH(_Calendario[Date])=2)

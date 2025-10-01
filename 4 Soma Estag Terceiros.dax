@@ -1,0 +1,1 @@
+_4SomaEstagTerceiros = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "ESTAGTERCEIROS",MONTH(_Calendario[Date])=4)

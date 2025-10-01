@@ -1,0 +1,1 @@
+_2SomaDespVeiculos = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "DESPVEICULOS",MONTH(_Calendario[Date])=2)

@@ -1,0 +1,13 @@
+_1SomaFuncionario = 
+VAR SOMAFUNCIONARIO = 
+    CALCULATE(
+        COUNT(fFuncionario[Funcionário]), 
+        FILTER(
+            fFuncionario, 
+            YEAR(fFuncionario[DATAATUALIZACAO]) = YEAR(MAX(fER[DATA])) &&
+            MONTH(fFuncionario[DATAATUALIZACAO]) = 1
+        )
+    )
+
+RETURN
+IF([_1SomaFolha] > 0, SOMAFUNCIONARIO, BLANK())

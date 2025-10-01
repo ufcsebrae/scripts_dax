@@ -1,0 +1,1 @@
+_1SomaEstacionamento = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "ESTACIONAMENTO",MONTH(_Calendario[Date])=1)

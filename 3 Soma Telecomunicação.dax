@@ -1,0 +1,1 @@
+_3SomaTeleComunicacao = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "TELECOMUNICACAO",MONTH(_Calendario[Date])=3)

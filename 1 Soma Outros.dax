@@ -1,0 +1,1 @@
+_1SomaOutros = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "OUTROS",MONTH(_Calendario[Date])=1)

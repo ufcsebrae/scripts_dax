@@ -1,0 +1,1 @@
+_2SomaLimpeza = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "LIMPEZA",MONTH(_Calendario[Date])=2)

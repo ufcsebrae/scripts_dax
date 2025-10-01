@@ -1,0 +1,17 @@
+_1SomaTotal = 
+
+    
+        [_1SomaAgua] +
+        [_1SomaAluguel] +
+        [_1SomaCopias] +
+        [_1SomaDespVeiculos] +
+        [_1SomaEstagTerceiros] +
+        [_1SomaFolha] +
+        [_1SomaIPTU] +
+        [_1SomaLimpeza] +
+        [_1SomaManutencao] +
+        [_1SomaOutros] +
+        [_1SomaTeleComunicacao] +
+        [_1SubTotal]
+    
+    

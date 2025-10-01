@@ -1,0 +1,1 @@
+_2SomaAgua = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "AGUA E LUZ", MONTH(_Calendario[Date])=2)

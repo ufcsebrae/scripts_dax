@@ -1,0 +1,1 @@
+_4SomaManutencao = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "MANUTENCAO",MONTH(_Calendario[Date])=4)

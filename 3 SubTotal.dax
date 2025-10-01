@@ -1,0 +1,1 @@
+_3SubTotal = [_3SomaAgua] + [_3SomaAluguel] + [_3SomaManutencao] + [_3SomaTeleComunicacao] + [_3SomaDespVeiculos] + [_3SomaCopias] + [_3SomaLimpeza] + [_3SomaVigilancia] + [_3SomaOutros]

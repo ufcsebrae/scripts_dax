@@ -1,0 +1,1 @@
+_2SomaIPTU = CALCULATE(SUM(fER[UNIFICAVALOR]), dConta[CLASSIFICAO] = "IPTU",MONTH(_Calendario[Date])=2)
