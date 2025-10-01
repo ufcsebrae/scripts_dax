@@ -1,0 +1,1 @@
+SomaBolsa = SUM('Salário'[UNIFICAVALOR])

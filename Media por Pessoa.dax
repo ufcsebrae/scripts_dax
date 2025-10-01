@@ -1,0 +1,5 @@
+MediaPorPessoa = 
+VAR SomaBolsa = DIVIDE(SUM('Salário'[UNIFICAVALOR]), 10)
+VAR Estagiario = COUNT(fEstagiario[ID_DESCRICAO_LOCALRESUMO])
+
+RETURN DIVIDE(SomaBolsa, Estagiario)

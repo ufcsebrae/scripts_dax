@@ -1,0 +1,5 @@
+MediaEstag/Func = 
+DIVIDE(
+    CALCULATE([SOMAESTAG], ALL(fEstagiario)),
+    CALCULATE([SOMAFUNC], ALL(Funcionarios))
+)

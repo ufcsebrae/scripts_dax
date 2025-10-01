@@ -1,0 +1,1 @@
+SomaEstag = COUNT(fEstagiario[ID_DESCRICAO_LOCALRESUMO])

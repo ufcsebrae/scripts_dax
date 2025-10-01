@@ -1,0 +1,3 @@
+MediaBolsa = 
+CALCULATE(
+AVERAGE(TBV_Media[SOMA]), ALL(dimLocal[Local]))

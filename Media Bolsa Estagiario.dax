@@ -1,0 +1,5 @@
+MediaBolsaEstag = 
+VAR MEDIA = [SomaBolsa]
+VAR ESTAG = [SomaEstag]
+RETURN
+DIVIDE(MEDIA, ESTAG)

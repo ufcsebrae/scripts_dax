@@ -1,0 +1,2 @@
+Total de SOMA para Bolsa = 
+CALCULATE(SUM('TBV_Media'[SOMA]), ALL('TBV_Media'[Bolsa]))

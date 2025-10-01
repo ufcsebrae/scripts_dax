@@ -1,0 +1,5 @@
+MediaEstag = 
+DIVIDE(
+    CALCULATE(COUNT(fEstagiario[NOME] ), ALL(fEstagiario)),
+    CALCULATE(DISTINCTCOUNT(fEstagiario[ID_DESCRICAO_LOCALRESUMO]), ALL(fEstagiario)
+))
