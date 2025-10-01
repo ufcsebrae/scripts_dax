@@ -1,0 +1,1 @@
+ValorPago = SUMX('Fato Processos', 'Fato Processos'[VALOR BRUTO] - 'Fato Processos'[VALOR LIQUIDO])
